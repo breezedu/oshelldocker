@@ -1,6 +1,6 @@
 FROM centos:centos7
 
-LABEL maintainer="Ruijia Wang <Ruijia.Wang@qiagen.com>"
+LABEL maintainer="Jeff Du <jeff.g.du@gmail.com>"
 
 #### install centos libs
 RUN yum install -y epel-release && yum update -y	
